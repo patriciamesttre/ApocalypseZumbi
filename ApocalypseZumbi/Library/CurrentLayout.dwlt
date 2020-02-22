@@ -95,8 +95,8 @@ MonoBehaviour:
     y: 0
     width: 250
     height: 400
-  m_MinSize: {x: 202, y: 224}
-  m_MaxSize: {x: 4002, y: 4024}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 17}
   m_Panes:
   - {fileID: 17}
@@ -429,19 +429,19 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets
+    - Assets/Prefabs/Personagens
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets
+  - Assets/Prefabs/Personagens
   m_LastFoldersGridSize: 16
   m_LastProjectPath: C:\Users\patricia.mmribeiro\Desktop\ApocalypseZumbi\ApocalypseZumbi
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 79}
-    m_SelectedIDs: d8290000
-    m_LastClickedID: 10712
+    scrollPos: {x: 0, y: 139}
+    m_SelectedIDs: 462c0000
+    m_LastClickedID: 11334
     m_ExpandedIDs: 00000000d8290000de290000142a00000e2b0000123000001031000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -588,10 +588,10 @@ MonoBehaviour:
   m_PersistentViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 70360000
-      m_LastClickedID: 13936
-      m_ExpandedIDs: bcfbffff
+      scrollPos: {x: 0, y: 120}
+      m_SelectedIDs: 92f5ffff
+      m_LastClickedID: -2670
+      m_ExpandedIDs: 92f5ffffbcfbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -647,9 +647,9 @@ MonoBehaviour:
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 7.5194316, y: 0.39695007, z: -16.902332}
+    m_Target: {x: -7.9299984, y: 1.5755942, z: -8.082678}
     speed: 2
-    m_Value: {x: 7.5194316, y: 0.39695007, z: -16.902332}
+    m_Value: {x: -7.9299984, y: 1.5755942, z: -8.082678}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -677,13 +677,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: 0.02903559, y: -0.92055297, z: 0.38324785, w: 0.06971635}
+    m_Target: {x: 0.025478855, y: -0.9282556, z: 0.36538488, w: 0.064700924}
     speed: 2
-    m_Value: {x: 0.02903559, y: -0.92055297, z: 0.38324785, w: 0.06971635}
+    m_Value: {x: 0.025478855, y: -0.9282556, z: 0.36538488, w: 0.064700924}
   m_Size:
-    m_Target: 56.820045
+    m_Target: 13.225034
     speed: 2
-    m_Value: 56.820045
+    m_Value: 13.225034
   m_Ortho:
     m_Target: 0
     speed: 2

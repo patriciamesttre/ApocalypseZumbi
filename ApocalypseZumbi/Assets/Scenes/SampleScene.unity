@@ -231,7 +231,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4941635705825534, guid: 35861510587b7489780fe86970823679, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -12.387306
+      value: -0.44000006
       objectReference: {fileID: 0}
     - target: {fileID: 4941635705825534, guid: 35861510587b7489780fe86970823679, type: 3}
       propertyPath: m_LocalRotation.x
@@ -507,7 +507,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4941635705825534, guid: 35861510587b7489780fe86970823679, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -12.387306
+      value: -0.44000006
       objectReference: {fileID: 0}
     - target: {fileID: 4941635705825534, guid: 35861510587b7489780fe86970823679, type: 3}
       propertyPath: m_LocalRotation.x
@@ -744,6 +744,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Hotel_Secundario_Destruido
       objectReference: {fileID: 0}
+    - target: {fileID: 48554765, guid: 07020a5359e4bea4f8ade77a53f06638, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 48554768, guid: 07020a5359e4bea4f8ade77a53f06638, type: 3}
       propertyPath: m_LocalPosition.x
       value: -39.9
@@ -788,6 +792,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 178916810, guid: 07020a5359e4bea4f8ade77a53f06638, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1772437337, guid: 07020a5359e4bea4f8ade77a53f06638, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 07020a5359e4bea4f8ade77a53f06638, type: 3}
 --- !u!1001 &1260662482
@@ -800,6 +812,10 @@ PrefabInstance:
     - target: {fileID: 1076451825, guid: bc7afc067b020d2448493fd3b3a24d02, type: 3}
       propertyPath: m_Name
       value: Hotel_Destruido
+      objectReference: {fileID: 0}
+    - target: {fileID: 1076451825, guid: bc7afc067b020d2448493fd3b3a24d02, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1076451828, guid: bc7afc067b020d2448493fd3b3a24d02, type: 3}
       propertyPath: m_LocalPosition.x
@@ -844,6 +860,14 @@ PrefabInstance:
     - target: {fileID: 1076451828, guid: bc7afc067b020d2448493fd3b3a24d02, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1580926004, guid: bc7afc067b020d2448493fd3b3a24d02, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1965406751, guid: bc7afc067b020d2448493fd3b3a24d02, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bc7afc067b020d2448493fd3b3a24d02, type: 3}
@@ -928,7 +952,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4610746654156704, guid: 4b3bb44effa49480d8d18049684cc33a, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.17
+      value: 0.77
       objectReference: {fileID: 0}
     - target: {fileID: 4610746654156704, guid: 4b3bb44effa49480d8d18049684cc33a, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1036,6 +1060,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   velocidade: 10
+  mascaraChao:
+    serializedVersion: 2
+    m_Bits: 256
 --- !u!136 &1563062453
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -1096,6 +1123,10 @@ PrefabInstance:
     - target: {fileID: 1906079326, guid: ec96d05f460dcb64095a145a8a95a5cf, type: 3}
       propertyPath: m_Name
       value: Hotel_Estacionamento_Destruido
+      objectReference: {fileID: 0}
+    - target: {fileID: 1906079326, guid: ec96d05f460dcb64095a145a8a95a5cf, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1906079329, guid: ec96d05f460dcb64095a145a8a95a5cf, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1192,7 +1223,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4941635705825534, guid: 35861510587b7489780fe86970823679, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -12.387306
+      value: -0.44
       objectReference: {fileID: 0}
     - target: {fileID: 4941635705825534, guid: 35861510587b7489780fe86970823679, type: 3}
       propertyPath: m_LocalRotation.x

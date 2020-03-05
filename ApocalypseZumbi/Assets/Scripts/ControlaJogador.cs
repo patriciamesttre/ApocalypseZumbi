@@ -20,7 +20,7 @@ public class ControlaJogador : MonoBehaviour
         if(Physics.Raycast(raio, out impacto, mascaraChao))
         {
             Vector3 posicaoMiraJogador = impacto.point - transform.position;
-            posicaoMiraJogador.y = transform.position.y;
+            posicaoMiraJogador.y = 0;
 
             Quaternion novaRotacao = Quaternion.LookRotation(posicaoMiraJogador);
             GetComponent<Rigidbody>().MoveRotation(novaRotacao);

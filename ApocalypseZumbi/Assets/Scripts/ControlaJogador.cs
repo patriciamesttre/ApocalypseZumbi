@@ -5,8 +5,12 @@ using UnityEngine;
 public class ControlaJogador : MonoBehaviour
 {
     public float velocidade = 10f;
-
     public LayerMask mascaraChao;
+    public GameObject textoGameOver;
+    public bool vivo = true;
+
+
+    
     void Start()
     {
         

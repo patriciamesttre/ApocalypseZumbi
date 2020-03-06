@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class ControlaInimigo : MonoBehaviour
 {
@@ -9,7 +10,9 @@ public class ControlaInimigo : MonoBehaviour
 
     void AtacaJogador()
     {
-        //Time.timeScale = 0;
+        Time.timeScale = 0;
+        jogador.GetComponent<ControlaJogador>().textoGameOver.SetActive(true);
+        jogador.GetComponent<ControlaJogador>().vivo = false;
     }
 
     void Update()

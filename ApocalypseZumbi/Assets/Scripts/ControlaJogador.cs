@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class ControlaJogador : MonoBehaviour
 {
@@ -13,12 +14,21 @@ public class ControlaJogador : MonoBehaviour
     
     void Start()
     {
-        
+        Time.timeScale = 1;
     }
 
     // Update is called once per frame
     void Update()
     {
+        if (!vivo)
+        {
+            if (Input.GetButtonDown("Fire1"))
+            {
+                SceneManager.LoadScene("Game");
+            }
+        }
+
+
         Ray raio = Camera.main.ScreenPointToRay(Input.mousePosition);
         RaycastHit impacto;
         if(Physics.Raycast(raio, out impacto, mascaraChao))

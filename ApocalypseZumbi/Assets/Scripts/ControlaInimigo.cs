@@ -1,16 +1,25 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
+
 
 public class ControlaInimigo : MonoBehaviour
 {
     public GameObject jogador;
     public float velocidade = 5f;
 
+
+    private void Start()
+    {
+        jogador = GameObject.FindWithTag("Jogador");
+        int geraTipoZumbi = Random.Range(1, 28);
+        transform.GetChild(geraTipoZumbi).gameObject.SetActive(true);
+    }
+
     void AtacaJogador()
     {
         Time.timeScale = 0;
+       
         jogador.GetComponent<ControlaJogador>().textoGameOver.SetActive(true);
         jogador.GetComponent<ControlaJogador>().vivo = false;
     }

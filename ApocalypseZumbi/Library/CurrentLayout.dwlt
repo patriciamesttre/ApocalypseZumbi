@@ -220,7 +220,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 498}
   m_MaxSize: {x: 10002, y: 14048}
   vertical: 1
-  controlID: 88
+  controlID: 68
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -497,20 +497,20 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes
+    - Assets/Prefabs/Personagens
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/Scenes
+  - Assets/Prefabs/Personagens
   m_LastFoldersGridSize: 16
   m_LastProjectPath: C:\Users\patricia.mmribeiro\Desktop\ApocalypseZumbi\ApocalypseZumbi
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 60}
-    m_SelectedIDs: 0e2d0000
-    m_LastClickedID: 11534
-    m_ExpandedIDs: 00000000e02900001c2a00001e30000000ca9a3b
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 502c0000
+    m_LastClickedID: 11344
+    m_ExpandedIDs: 00000000e02900001c2a00001c31000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -657,23 +657,23 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: da340000
+      m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: bcfbffffdc360000
+      m_ExpandedIDs: bcfbffff82360000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: 
-        m_OriginalName: 
+        m_Name: Personagem
+        m_OriginalName: Personagem
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 0
+        m_UserData: 14010
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 11
+        m_OriginalEventType: 0
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 4}
       m_SearchString: 
@@ -749,9 +749,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: -0.10925703, y: 0.021168007, z: -0.0023183108, w: -0.99378544}
   m_Size:
-    m_Target: 8.629682
+    m_Target: 9.018017
     speed: 2
-    m_Value: 8.629682
+    m_Value: 9.018017
   m_Ortho:
     m_Target: 0
     speed: 2

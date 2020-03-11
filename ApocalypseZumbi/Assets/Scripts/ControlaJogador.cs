@@ -9,12 +9,14 @@ public class ControlaJogador : MonoBehaviour
     public LayerMask mascaraChao;
     public GameObject textoGameOver;
     public bool vivo = true;
+    private Rigidbody rigidbodyJogador;
 
 
     
     void Start()
     {
         Time.timeScale = 1;
+        rigidbodyJogador = GetComponent<Rigidbody>();
     }
 
     // Update is called once per frame
@@ -46,7 +48,7 @@ public class ControlaJogador : MonoBehaviour
         float eixoZ = Input.GetAxis("Vertical");
         Vector3 direcao = new Vector3(eixoX , 0 , eixoZ);
         //transform.Translate(direcao * velocidade * Time.deltaTime);
-        GetComponent<Rigidbody>().MovePosition(GetComponent<Rigidbody>().position + (direcao * velocidade * Time.deltaTime));
+        rigidbodyJogador.MovePosition(rigidbodyJogador.position + (direcao * velocidade * Time.deltaTime));
         
 
         if(direcao != Vector3.zero){
